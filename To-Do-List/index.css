@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body,html {
+    height: 100%;
+    background: #cfbaf0;
+    font-family: "Comfortaa";
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #b9fbc0;
+    font-family: "Sofia", sans-serif;
+}
+#main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+}
+#botoes {
+    text-align: center;
+    flex-direction: row;
+    background-color: #f1c0e8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+input[type="text"] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #f1ddee;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 50px;
+    background-color: #f1ddee;
+    padding: 12px 12px 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button {
+    height: 50px;
+    background-color: #f1ddee;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 25px;
+    
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:hover {
+    background-color: #f5ceef;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 20px;
+}
+.borracha{
+    float: right;
+    
+}
+.lista {
+    text-align: left;
+    background-color: #f1c0e8;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.texto {
+    padding: 10px;
+    font-size: 35px;
+    color: grey;
+}
+.riscaTexto {
+    text-decoration: line-through;
+}
